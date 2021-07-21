@@ -18,19 +18,18 @@ public class SolucaoUri1020 {
 
 		System.out.println("Informe a idade em dias: ");
 		int idade = sc.nextInt();
-		
-	
-			divisao =  (int) Math.floor(idade / ano);
-			restoDivisao = idade % ano;
 
-			idadeAnos = (int) divisao;
+		divisao = (int) Math.floor(idade / ano);
+		restoDivisao = idade % ano;
 
-			idadeMeses = (int) Math.floor(restoDivisao / mes);
-			idadeDias = restoDivisao % mes;
+		idadeAnos = (int) divisao;
 
-			System.out.println(idadeAnos + " ano(s)");
-			System.out.println(idadeMeses + " mes(es)");
-			System.out.println(idadeDias + " dia(s)");
+		idadeMeses = (int) Math.floor(restoDivisao / mes);
+		idadeDias = restoDivisao % mes;
+
+		System.out.println(idadeAnos + " ano(s)");
+		System.out.println(idadeMeses + " mes(es)");
+		System.out.println(idadeDias + " dia(s)");
 
 		sc.close();
 	}
