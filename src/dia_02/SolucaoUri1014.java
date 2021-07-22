@@ -11,6 +11,7 @@ public class SolucaoUri1014 {
 		
 		double consumoMedio = distanciaPecorrida / combustivelGasto;
 		System.out.println(String.format("%.3f", consumoMedio)+" km/l");
+		// System.out.printf("%.3f km/l", consumoMedio);
 		sc.close();
 		
 	}
